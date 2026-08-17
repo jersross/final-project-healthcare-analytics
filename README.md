@@ -182,7 +182,7 @@ Parquet conversion kept S3 storage and Athena query costs low, since Athena bill
 ├── model/
 │   ├── cvd_risk_model_packaging.py   # Trains the two-stage model and registers it as a SageMaker Model
 └── app/
-    └── gradio_app.py             # Gradio application; calls the SageMaker endpoint for live inference
+    └── gradio_app_cardiovascular.py             # Gradio application; calls the SageMaker endpoint for live inference
 ```
 
 ---
