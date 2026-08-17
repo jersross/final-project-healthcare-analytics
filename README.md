@@ -181,7 +181,6 @@ Parquet conversion kept S3 storage and Athena query costs low, since Athena bill
 │   └── glue_etl_job.py          # AWS Glue visual ETL: Change Schema → Custom Transform → Evaluate Data Quality → S3 (silver / rejected)
 ├── model/
 │   ├── cvd_risk_model_packaging.py   # Trains the two-stage model and registers it as a SageMaker Model
-│   └── cvd-risk-model-deploy.ipynb   # Deploys the registered model to a SageMaker real-time endpoint
 └── app/
     └── gradio_app.py             # Gradio application; calls the SageMaker endpoint for live inference
 ```
