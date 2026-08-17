@@ -188,6 +188,13 @@ Parquet conversion kept S3 storage and Athena query costs low, since Athena bill
 
 ---
 
+## AI Use Note
+Gemini and Claude were used for the following:
+- Debugging model
+- Gradio application build out
+- Proof-reading and alignment within report
+- Custom transformation script development within AWS Glue. 
+
 ## Team
 
 **Group 12** — Jered Ross, Mitchell Sears
