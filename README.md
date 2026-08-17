@@ -127,7 +127,7 @@ The trained model was packaged and deployed to a SageMaker real-time inference e
 ### Application
 
 ![Screenshot of the CVD Risk Stratification and Clinical Analytics Portal Gradio application, showing the Patient Simulator tab with patient vitals inputs and predicted risk level and risk score outputs](docs/images/app_screenshot.png)
-[Visit our App!](https://2c08a05f3f34e38c36.gradio.live/)
+[Visit our App!](https://huggingface.co/spaces/jersross/cardiovascular-risk-final-project)
 
 The portal was organized into five tabs:
 - **Executive Overview & Lineage** — population-level KPIs and a data quality/imputation audit sourced from the Glue ETL flags.
